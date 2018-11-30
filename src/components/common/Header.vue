@@ -2,7 +2,7 @@
     <div class="header">
         <!-- 折叠按钮 -->
         <div class="collapse-btn" @click="collapseChage">
-            <i class="el-icon-menu"></i>
+            <i class="iconfont icon-shousuo"></i>
         </div>
         <div class="logo">WXY-Leader</div>
         <div class="header-right">
@@ -23,7 +23,7 @@
                     <span class="btn-bell-badge" v-if="message"></span>
                 </div>
                 <!-- 用户头像 -->
-                <div class="user-avator"><img src="static/img/img.jpg"></div>
+                <div class="user-avator"><img src="static/img/navlogo.png"></div>
                 <!-- 用户名下拉菜单 -->
                 <el-dropdown class="user-name" trigger="click" @command="handleCommand">
                     <span class="el-dropdown-link">

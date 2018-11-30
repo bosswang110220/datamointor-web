@@ -1,10 +1,12 @@
 <template>
     <div class="login-wrap">
         <div class="ms-login">
-            <div class="ms-title">后台管理系统</div>
+            <div class="ms-title">
+                    <img src="static/img/logo.png" class="user-avator" alt="" style="margin-top: 13px;">
+                </div>
             <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="0px" class="ms-content">
                 <el-form-item prop="username">
-                    <el-input v-model="ruleForm.username" placeholder="username">
+                    <el-input v-model="ruleForm.username" placeholder="admin">
                         <el-button slot="prepend" icon="el-icon-lx-people"></el-button>
                     </el-input>
                 </el-form-item>
@@ -16,7 +18,7 @@
                 <div class="login-btn">
                     <el-button type="primary" @click="submitForm('ruleForm')">登录</el-button>
                 </div>
-                <p class="login-tips">Tips : 用户名和密码随便填。</p>
+                <p class="login-tips">提示:任意输入用户名和密码即可体验当前系统。</p>
             </el-form>
         </div>
     </div>
@@ -61,7 +63,7 @@
         position: relative;
         width:100%;
         height:100%;
-        background-image: url(../../assets/login-bg.jpg);
+        background-image: url(../../assets/login-bg.png);
         background-size: 100%;
     }
     .ms-title{
@@ -79,7 +81,7 @@
         width:350px;
         margin:-190px 0 0 -175px;
         border-radius: 5px;
-        background: rgba(255,255,255, 0.3);
+        background: rgba(28, 98, 148, 0.48);
         overflow: hidden;
     }
     .ms-content{

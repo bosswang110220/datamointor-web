@@ -10,12 +10,12 @@
                             <div>{{role}}</div>
                         </div>
                     </div>
-                    <div class="user-info-list">上次登录时间：<span>2018-01-01</span></div>
-                    <div class="user-info-list">上次登录地点：<span>东莞</span></div>
+                    <div class="user-info-list">上次登录时间：<span>2018-11-30</span></div>
+                    <div class="user-info-list">上次登录地点：<span>云南昆明</span></div>
                 </el-card>
                 <el-card shadow="hover" style="height:252px;">
                     <div slot="header" class="clearfix">
-                        <span>语言详情</span>
+                        <span>web开发语言</span>
                     </div>
                     Vue
                     <el-progress :percentage="71.3" color="#42b983"></el-progress>

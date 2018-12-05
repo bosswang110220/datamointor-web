@@ -41,26 +41,26 @@
                     {
                         icon: 'el-icon-lx-home',
                         index: 'index',
-                        title: '系统首页'
+                        title: '主页'
                     },
                     {
                         icon: 'el-icon-lx-cascades',
                         index: 'table',
-                        title: '基础表格'
+                        title: '我的表格'
                     },
                     {
                         icon: 'el-icon-lx-copy',
                         index: 'tabs',
-                        title: 'tab选项卡'
+                        title: '我的选项卡'
                     },
                     {
                         icon: 'el-icon-lx-calendar',
                         index: '3',
-                        title: '表单相关',
+                        title: '我的表单',
                         subs: [
                             {
                                 index: 'form',
-                                title: '基本表单'
+                                title: '我的表单'
                             },
                             {
                                 index: '3-2',
@@ -85,12 +85,12 @@
                     {
                         icon: 'el-icon-lx-emoji',
                         index: 'icon',
-                        title: '自定义图标'
+                        title: '我的图标'
                     },
                     {
                         icon: 'el-icon-lx-favor',
                         index: 'charts',
-                        title: 'schart图表'
+                        title: '我的图表'
                     },
                     {
                         icon: 'el-icon-rank',

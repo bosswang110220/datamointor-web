@@ -18,7 +18,7 @@
                 <div class="login-btn">
                     <el-button type="primary" @click="submitForm('ruleForm')">登录</el-button>
                 </div>
-                <p class="login-tips">提示:任意输入用户名和密码即可体验当前系统。</p>
+                <!-- <p class="login-tips">提示:任意输入用户名和密码即可体验当前系统。</p> -->
             </el-form>
         </div>
     </div>

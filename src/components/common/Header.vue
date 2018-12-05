@@ -2,7 +2,7 @@
     <div class="header">
         <!-- 折叠按钮 -->
         <div class="collapse-btn" @click="collapseChage">
-            <i class="iconfont icon-shousuo"></i>
+            <i class="iconfont icon-daohangshouhui"></i>
         </div>
         <div class="logo">WXY-Leader</div>
         <div class="header-right">

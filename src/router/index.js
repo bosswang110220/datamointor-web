@@ -18,27 +18,27 @@ export default new Router({
                 {
                     path: '/index',
                     component: resolve => require(['../components/page/Dashboard.vue'], resolve),
-                    meta: { title: '系统首页' }
+                    meta: { title: '主页' }
                 },
                 {
                     path: '/icon',
                     component: resolve => require(['../components/page/Icon.vue'], resolve),
-                    meta: { title: '自定义图标' }
+                    meta: { title: '我的图标' }
                 },
                 {
                     path: '/table',
                     component: resolve => require(['../components/page/BaseTable.vue'], resolve),
-                    meta: { title: '基础表格' }
+                    meta: { title: '我的表格' }
                 },
                 {
                     path: '/tabs',
                     component: resolve => require(['../components/page/Tabs.vue'], resolve),
-                    meta: { title: 'tab选项卡' }
+                    meta: { title: '我的选项卡' }
                 },
                 {
                     path: '/form',
                     component: resolve => require(['../components/page/BaseForm.vue'], resolve),
-                    meta: { title: '基本表单' }
+                    meta: { title: '我的表单' }
                 },
                 {
                     // 富文本编辑器组件
@@ -62,7 +62,7 @@ export default new Router({
                     // vue-schart组件
                     path: '/charts',
                     component: resolve => require(['../components/page/BaseCharts.vue'], resolve),
-                    meta: { title: 'schart图表' }
+                    meta: { title: '我的图表' }
                 },
                 {
                     // 拖拽列表组件
